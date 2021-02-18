@@ -15,3 +15,24 @@ $ npm install
 ```bash
 $ npm start
 ```
+
+# Create Account
+
+
+**URL** : `/addAccount/`
+
+**Method** : `POST`
+
+**Formdata**
+
+Provide name of accouhnt and value to be created.
+Examle:
+```json
+name:John
+value:350
+```
+# Get Account from id
+
+**URL** : `/getAccount/:id`
+
+**Method** : `GET`
