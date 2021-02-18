@@ -18,7 +18,6 @@ $ npm start
 
 # Create Account
 
-
 **URL** : `/addAccount/`
 
 **Method** : `POST`
@@ -36,3 +35,18 @@ value:350
 **URL** : `/getAccount/:id`
 
 **Method** : `GET`
+
+# Create Transaction
+
+**URL** : `/addAccount/`
+
+**Method** : `POST`
+
+**Formdata**
+
+Change account value
+Examle:
+```json
+account_id:1
+value:350
+```
